@@ -1,8 +1,48 @@
-# React + Vite
+# 서브웨이 React 웹 프로젝트 기획서
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### 프로젝트 개요
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**프로젝트 명**: 서브웨이 주문 및 매장 관리 웹 애플리케이션
+
+**목적**: 사용자에게 서브웨이 메뉴 주문 및 매장 정보 제공, 관리자에게 메뉴 및 주문 관리 기능 제공
+
+**주요 기능**: 사용자 인증, 메뉴 보기 및 주문, 위치 기반 매장 찾기, 프로모션 및 이벤트, 사용자 리뷰 및 평점, 관리자 기능
+
+---
+
+### 기능 설명
+
+1. **사용자 인증**
+    - **회원가입/로그인**: 이메일과 비밀번호를 통한 회원가입 및 로그인 기능
+    - **소셜 로그인**: Google, Facebook 등을 통한 소셜 로그인 기능
+2. **메뉴 보기 및 주문**
+    - **메뉴 리스트**: 서브웨이 메뉴를 카테고리별로 나누어 볼 수 있는 기능
+    - **메뉴 상세 페이지**: 선택한 메뉴의 상세 정보를 제공
+    - **주문 기능**: 사용자 선택에 따라 샌드위치를 커스터마이징하고 장바구니에 추가하는 기능
+3. **위치 기반 매장 찾기**
+    - **지도 연동**: Google Maps API를 사용하여 사용자 위치 기반 근처 서브웨이 매장을 찾는 기능
+    - **매장 정보**: 매장 주소, 전화번호, 영업 시간 등의 정보를 제공
+4. **프로모션 및 이벤트**
+    - **이벤트 페이지**: 현재 진행 중인 프로모션 및 이벤트 정보를 제공
+    - **쿠폰 기능**: 쿠폰 코드를 입력하고 적용하는 기능
+5. **사용자 리뷰 및 평점**
+    - **리뷰 작성**: 사용자가 매장 및 메뉴에 대해 리뷰를 작성하고 평점을 부여하는 기능
+    - **리뷰 보기**: 다른 사용자들이 작성한 리뷰와 평점을 보는 기능
+6. **관리자 기능**
+    - **메뉴 관리**: 관리자 권한으로 메뉴를 추가, 수정, 삭제하는 기능
+    - **주문 관리**: 사용자 주문 내역을 확인하고 처리 상태를 변경하는 기능
+
+---
+
+### 기술 스택
+
+- **프론트엔드 프레임워크**: React
+- **상태 관리**: Redux toolkit
+- **라우팅**: React Router
+- **API 통신**: Axios
+- **스타일링**: Styled-components
+- **폼 관리 및 유효성 검사**: Formik
+- **실시간 데이터베이스 및 사용자 인증**: Firebase
+- **지도 API**: Google Maps API
