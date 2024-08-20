@@ -1,7 +1,9 @@
+import { useState } from "react";
 import styled from "styled-components";
 import { ReactComponent as BurgerIcon } from "../../src/assets/icons/menu-burger.svg";
 import { ReactComponent as ShoppingCartIcon } from "../../src/assets/icons/shopping-cart.svg";
 import { ReactComponent as LogoIcon } from "../../src/assets/icons/logo.svg";
+import SideMenu from "./SideMenu";
 
 const StyledHeader = styled.header`
   height: 74px;
@@ -15,6 +17,7 @@ const StyledBurgerIcon = styled(BurgerIcon)`
   width: 24px;
   height: 24px;
 `;
+
 const StyledShoppingIcon = styled(ShoppingCartIcon)`
   width: 24px;
   height: 24px;
@@ -38,21 +41,34 @@ const StyledLogo = styled(LogoIcon)`
 `;
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <StyledHeader>
-      <MenuButton>
-        <StyledBurgerIcon />
-      </MenuButton>
-      <Logo>
-        <a href="#">
-          <StyledLogo />
-        </a>
-        <span style={{ display: "none" }}>SUBWAY</span>
-      </Logo>
-      <MenuButton>
-        <StyledShoppingIcon />
-      </MenuButton>
-    </StyledHeader>
+    <>
+      <StyledHeader>
+        <MenuButton onClick={toggleMenu}>
+          <StyledBurgerIcon />
+        </MenuButton>
+        <Logo>
+          <a href="#">
+            <StyledLogo />
+          </a>
+          <span style={{ display: "none" }}>SUBWAY</span>
+        </Logo>
+        <MenuButton>
+          <StyledShoppingIcon />
+        </MenuButton>
+      </StyledHeader>
+      <SideMenu isMenuOpen={isMenuOpen} closeMenu={closeMenu}/>
+    </>
   );
 }
 
