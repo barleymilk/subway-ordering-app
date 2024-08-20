@@ -1,0 +1,753 @@
+{
+  "breads": [
+    {
+      "title_ko": "허니오트",
+      "title_en": "Honey Oat",
+      "description": "고소한 위트빵에 오트밀 가루를 묻혀 고소함과 식감이 두배로",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 88.6],
+        "ingredient_2": ["열량(kcal)", 235],
+        "ingredient_3": ["단백질(g)", 8.8, 16],
+        "ingredient_4": ["포화지방(g)", 0.6, 4],
+        "ingredient_5": ["당류(g)", 9.3, 9],
+        "ingredient_6": ["나트륨(mg)", 306, 15]
+      }
+    },
+    {
+      "title_ko": "하티",
+      "title_en": "Hearty Italian",
+      "description": "부드러운 화이트빵에 옥수수가루를 묻혀 겉은 바삭하고 고소하며 속은 부드럽게",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 75],
+        "ingredient_2": ["열량(kcal)", 210],
+        "ingredient_3": ["단백질(g)", 7, 13],
+        "ingredient_4": ["포화지방(g)", 1, 3],
+        "ingredient_5": ["당류(g)", 3, 3],
+        "ingredient_6": ["나트륨(mg)", 340, 17]
+      }
+    },
+    {
+      "title_ko": "위트",
+      "title_en": "Wheat",
+      "description": "여러 가지 곡물로 만들어 건강하고 고소한 맛의 곡물빵",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 78],
+        "ingredient_2": ["열량(kcal)", 192],
+        "ingredient_3": ["단백질(g)", 8.4, 15],
+        "ingredient_4": ["포화지방(g)", 0.5, 4],
+        "ingredient_5": ["당류(g)", 5, 5],
+        "ingredient_6": ["나트륨(mg)", 257, 13]
+      }
+    },
+    {
+      "title_ko": "파마산 오레가노",
+      "title_en": "Parmesan Oregano",
+      "description": "부드러운 화이트빵에 파마산 오레가노 시즈닝을 묻혀 허브향 가득",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 74.5],
+        "ingredient_2": ["열량(kcal)", 213],
+        "ingredient_3": ["단백질(g)", 6.3, 11],
+        "ingredient_4": ["포화지방(g)", 0.4, 2],
+        "ingredient_5": ["당류(g)", 3.2, 3],
+        "ingredient_6": ["나트륨(mg)", 489, 24]
+      }
+    },
+    {
+      "title_ko": "화이트",
+      "title_en": "White",
+      "description": "가장 클래식한 빵으로 부드러운 식감이 매력 포인트",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 71],
+        "ingredient_2": ["열량(kcal)", 202],
+        "ingredient_3": ["단백질(g)", 6.1, 11],
+        "ingredient_4": ["포화지방(g)", 0.3, 2],
+        "ingredient_5": ["당류(g)", 2.8, 3],
+        "ingredient_6": ["나트륨(mg)", 343, 17]
+      }
+    },
+    {
+      "title_ko": "플랫브레드",
+      "title_en": "Flat Bread",
+      "description": "이름처럼 납작 모양에 피자도우처럼 쫀득한 맛이 일품",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 86],
+        "ingredient_2": ["열량(kcal)", 232],
+        "ingredient_3": ["단백질(g)", 8, 15],
+        "ingredient_4": ["포화지방(g)", 0.9, 6],
+        "ingredient_5": ["당류(g)", 1.9, 2],
+        "ingredient_6": ["나트륨(mg)", 465, 23]
+      }
+    }
+  ],
+  "cheeses": [
+    {
+      "title_ko": "아메리칸 치즈",
+      "title_en": "American Cheese",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 10],
+        "ingredient_2": ["열량(kcal)", 35.3],
+        "ingredient_3": ["단백질(g)", 1.8, 3],
+        "ingredient_4": ["포화지방(g)", 1.9, 13],
+        "ingredient_5": ["당류(g)", 0.4, 0],
+        "ingredient_6": ["나트륨(mg)", 193, 10]
+      }
+    },
+    {
+      "title_ko": "슈레드 치즈",
+      "title_en": "Shredded Cheese",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 14],
+        "ingredient_2": ["열량(kcal)", 53.6],
+        "ingredient_3": ["단백질(g)", 3.2, 6],
+        "ingredient_4": ["포화지방(g)", 2.4, 16],
+        "ingredient_5": ["당류(g)", 0, 0],
+        "ingredient_6": ["나트륨(mg)", 84.7, 4]
+      }
+    },
+    {
+      "title_ko": "모차렐라 치즈",
+      "title_en": "Mozzarella Cheese",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 14],
+        "ingredient_2": ["열량(kcal)", 43.8],
+        "ingredient_3": ["단백질(g)", 2.8, 5],
+        "ingredient_4": ["포화지방(g)", 2.1, 14],
+        "ingredient_5": ["당류(g)", 0.2, 0],
+        "ingredient_6": ["나트륨(mg)", 82.3, 4]
+      }
+    }
+  ],
+  "vegetables": [
+    {
+      "title_ko": "양상추",
+      "title_en": "Lettuce",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 2.9]
+      }
+    },
+    {
+      "title_ko": "토마토",
+      "title_en": "Tomatoes",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 7.7]
+      }
+    },
+    {
+      "title_ko": "오이",
+      "title_en": "Cucumbers",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 1.5]
+      }
+    },
+    {
+      "title_ko": "피망",
+      "title_en": "Peppers",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 1.4]
+      }
+    },
+    {
+      "title_ko": "양파",
+      "title_en": "Red Onions",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 2.8]
+      }
+    },
+    {
+      "title_ko": "피클",
+      "title_en": "Pickles",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 0.4]
+      }
+    },
+    {
+      "title_ko": "올리브",
+      "title_en": "Olives",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 3.9]
+      }
+    },
+    {
+      "title_ko": "할라피뇨",
+      "title_en": "Jalapenos",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 0.6]
+      }
+    },
+    {
+      "title_ko": "아보카도",
+      "title_en": "Avocado",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_2": ["열량(kcal)", 56.5]
+      }
+    }
+  ],
+  "sauces": [
+    {
+      "title_ko": "랜치",
+      "title_en": "Ranch",
+      "description": "고소한 마요네즈와 레몬즙의 만남!\n고소함이 두배!",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 116],
+        "ingredient_3": ["단백질(g)", 0.3, 1],
+        "ingredient_4": ["포화지방(g)", 2.1, 14],
+        "ingredient_5": ["당류(g)", 0.6, 1],
+        "ingredient_6": ["나트륨(mg)", 128, 6]
+      }
+    },
+    {
+      "title_ko": "스위트 어니언",
+      "title_en": "Sweet Onion",
+      "description": "써브웨이만의 특제 레시피로 만든 달콤한 양파소스",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 40.1],
+        "ingredient_3": ["단백질(g)", 0.1, 0],
+        "ingredient_4": ["포화지방(g)", 0, 0],
+        "ingredient_5": ["당류(g)", 8.2, 8],
+        "ingredient_6": ["나트륨(mg)", 81.7, 4]
+      }
+    },
+    {
+      "title_ko": "마요네즈",
+      "title_en": "Mayonnaise",
+      "description": "말이 필요없는 고소함의 대명사, 마요네즈 소스",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 158],
+        "ingredient_3": ["단백질(g)", 0.3, 0],
+        "ingredient_4": ["포화지방(g)", 2.8, 19],
+        "ingredient_5": ["당류(g)", 0.1, 0],
+        "ingredient_6": ["나트륨(mg)", 98.1, 5]
+      }
+    },
+    {
+      "title_ko": "스위트 칠리",
+      "title_en": "Sweet Chilli",
+      "description": "매콤한 칠리에 더해진 기분 좋은 달콤함!",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 40],
+        "ingredient_3": ["단백질(g)", 0.1, 0],
+        "ingredient_4": ["포화지방(g)", 0, 0],
+        "ingredient_5": ["당류(g)", 9.2, 9],
+        "ingredient_6": ["나트륨(mg)", 163, 8]
+      }
+    },
+    {
+      "title_ko": "스모크 바비큐",
+      "title_en": "Smoke BBQ",
+      "description": "스모크 향과 달콤한 바비큐의 완벽한 조화",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 32.8],
+        "ingredient_3": ["단백질(g)", 0.2, 0],
+        "ingredient_4": ["포화지방(g)", 0.1, 0],
+        "ingredient_5": ["당류(g)", 7, 7],
+        "ingredient_6": ["나트륨(mg)", 132, 7]
+      }
+    },
+    {
+      "title_ko": "핫 칠리",
+      "title_en": "Hot Chilli",
+      "description": "진짜 매운맛을 보고 싶다면?\n써브웨이의 핫 칠리!",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 41.8],
+        "ingredient_3": ["단백질(g)", 0.2, 0],
+        "ingredient_4": ["포화지방(g)", 0.1, 0],
+        "ingredient_5": ["당류(g)", 5.3, 5],
+        "ingredient_6": ["나트륨(mg)", 180, 9]
+      }
+    },
+    {
+      "title_ko": "허니 머스터드",
+      "title_en": "Honey Mustard",
+      "description": "겨자씨가 아낌없이 들어간 달콤한 머스터드 소스",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 38.4],
+        "ingredient_3": ["단백질(g)", 0.4, 1],
+        "ingredient_4": ["포화지방(g)", 0.4, 2],
+        "ingredient_5": ["당류(g)", 6.3, 6],
+        "ingredient_6": ["나트륨(mg)", 145, 7]
+      }
+    },
+    {
+      "title_ko": "사우스웨스트 치폴레",
+      "title_en": "Southwest Chipotle",
+      "description": "핫 칠리와 고소한 마요네즈가 만난 이국적인 매콤한 맛",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 96.5],
+        "ingredient_3": ["단백질(g)", 0.4, 1],
+        "ingredient_4": ["포화지방(g)", 1.6, 11],
+        "ingredient_5": ["당류(g)", 1, 1],
+        "ingredient_6": ["나트륨(mg)", 160, 8]
+      }
+    },
+    {
+      "title_ko": "홀스래디쉬",
+      "title_en": "Horseradish",
+      "description": "고소한 마요네즈와 고추냉이의 이색적인 만남!\n매니아층을 사로잡은 매력No.1 소스",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 106],
+        "ingredient_3": ["단백질(g)", 0.3, 1],
+        "ingredient_4": ["포화지방(g)", 1.6, 11],
+        "ingredient_5": ["당류(g)", 2.6, 3],
+        "ingredient_6": ["나트륨(mg)", 152, 8]
+      }
+    },
+    {
+      "title_ko": "머스타드",
+      "title_en": "Yellow Mustard",
+      "description": "겨자씨로 만든 오리지날 머스터드 소스",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 21],
+        "ingredient_2": ["열량(kcal)", 15.3],
+        "ingredient_3": ["단백질(g)", 1.1, 2],
+        "ingredient_4": ["포화지방(g)", 0.1, 1],
+        "ingredient_5": ["당류(g)", 0.2, 0],
+        "ingredient_6": ["나트륨(mg)", 193, 10]
+      }
+    },
+    {
+      "title_ko": "엑스트라 버진 올리브 오일",
+      "title_en": "Extra Virgin Olive Oil",
+      "description": "담백하고 깔끔하게 즐기고 싶다면 주저하지 말고 올리브오일",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 3.5],
+        "ingredient_2": ["열량(kcal)", 29],
+        "ingredient_3": ["단백질(g)", 0, 0],
+        "ingredient_4": ["포화지방(g)", 0.5, 3],
+        "ingredient_5": ["당류(g)", 0, 0],
+        "ingredient_6": ["나트륨(mg)", 0, 0]
+      }
+    },
+    {
+      "title_ko": "레드 와인 식초",
+      "title_en": "Red Wine Vinaigrette",
+      "description": "레드와인을 발효시켜 풍미가 가득한 식초",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 3.5],
+        "ingredient_2": ["열량(kcal)", 0.7],
+        "ingredient_3": ["단백질(g)", 0, 0],
+        "ingredient_4": ["포화지방(g)", 0, 0],
+        "ingredient_5": ["당류(g)", 0, 0],
+        "ingredient_6": ["나트륨(mg)", 0, 0]
+      }
+    },
+    {
+      "title_ko": "소금",
+      "title_en": "Salt",
+      "img_path": ""
+    },
+    {
+      "title_ko": "후추",
+      "title_en": "Black Pepper",
+      "img_path": ""
+    }
+  ],
+  "sandwiches": [
+    {
+      "title_ko": "에그 슬라이스 아보카도",
+      "title_en": "Egg slice Avocado",
+      "description": "담백한 에그 슬라이스에 아보카도를 더해 건강함을 한입 가득 즐겨보세요.",
+      "type": "클래식",
+      "img_path": "",
+      "ingredients": {
+        "ingredient_1": ["중량(g)", 244],
+        "ingredient_2": ["열량(kcal)", 335],
+        "ingredient_3": ["단백질(g)", 15.7, 29],
+        "ingredient_4": ["포화지방(g)", 3.1, 21],
+        "ingredient_5": ["당류(g)", 7.9],
+        "ingredient_6": ["나트륨(mg)", 536, 27]
+      }
+    },
+    {
+      "title_ko": "에그마요",
+      "title_en": "Egg Mayo",
+      "description": "부드러운 달걀과 고소한 마요네즈가 만나 더 부드러운 스테디셀러",
+      "type": "클래식",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 238],
+        "ingredient_2": ["열량(kcal)", 416],
+        "ingredient_3": ["단백질(g)", 16.4, 30],
+        "ingredient_4": ["포화지방(g)", 4.8, 32],
+        "ingredient_5": ["당류(g)", 7.7, 8],
+        "ingredient_6": ["나트륨(mg)", 554, 28]
+      },
+      "ingredients": ["에그마요 2스쿱", "치즈 2장"],
+      "recommend_sauces": ["랜치", "스위트 칠리"]
+    },
+    {
+      "title_ko": "이탈리안 비엠티",
+      "title_en": "Italian B.M.T.™",
+      "description": "페퍼로니, 살라미 그리고 햄이 만들어내는 최상의 조화!\n전세계가 사랑하는 써브웨이의 베스트셀러!\nBiggest Meatiest Tastiest, its’ B.M.T.",
+      "type": "클래식",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 228],
+        "ingredient_2": ["열량(kcal)", 388],
+        "ingredient_3": ["단백질(g)", 21, 38],
+        "ingredient_4": ["포화지방(g)", 5.9, 39],
+        "ingredient_5": ["당류(g)", 8.6, 9],
+        "ingredient_6": ["나트륨(mg)", 1064, 53]
+      },
+      "ingredients": ["페퍼로니 3장", "살라미 3장", "햄 2장", "치즈 2장"],
+      "recommend_sauces": ["스위트 어니언", "랜치"]
+    },
+    {
+      "title_ko": "비엘티",
+      "title_en": "B.L.T.",
+      "description": "오리지널 아메리칸 스타일 베이컨의 풍미와 바삭함 그대로~",
+      "type": "클래식",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 182],
+        "ingredient_2": ["열량(kcal)", 300],
+        "ingredient_3": ["단백질(g)", 15.9, 29],
+        "ingredient_4": ["포화지방(g)", 3.7, 25],
+        "ingredient_5": ["당류(g)", 7.9, 8],
+        "ingredient_6": ["나트륨(mg)", 666, 33]
+      },
+      "ingredients": ["베이컨 4장", "치즈 2장"],
+      "recommend_sauces": ["마요네즈", "사우스웨스트 치폴레"]
+    },
+    {
+      "title_ko": "햄",
+      "title_en": "Ham",
+      "description": "풍부한 햄이 만들어내는 담백함을 입 안 가득 즐겨보세요!",
+      "type": "클래식",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 220],
+        "ingredient_2": ["열량(kcal)", 262],
+        "ingredient_3": ["단백질(g)", 19, 35],
+        "ingredient_4": ["포화지방(g)", 1, 7],
+        "ingredient_5": ["당류(g)", 8.4, 8],
+        "ingredient_6": ["나트륨(mg)", 680, 34]
+      },
+      "ingredients": ["햄 4장", "치즈 2장"],
+      "recommend_sauces": ["마요네즈", "홀스래디쉬"]
+    },
+    {
+      "title_ko": "참치",
+      "title_en": "Tuna",
+      "description": "남녀노소 누구나 좋아하는 담백한 참치와 고소한 마요네즈의 완벽한 조화",
+      "type": "클래식",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 238],
+        "ingredient_2": ["열량(kcal)", 316],
+        "ingredient_3": ["단백질(g)", 26.9, 49],
+        "ingredient_4": ["포화지방(g)", 1.4, 9],
+        "ingredient_5": ["당류(g)", 7.6, 8],
+        "ingredient_6": ["나트륨(mg)", 535, 27]
+      },
+      "ingredients": ["참치 2스쿱", "치즈 2장"],
+      "recommend_sauces": ["핫 칠리", "스위트 칠리"]
+    },
+    {
+      "title_ko": "로스트 치킨 아보카도",
+      "title_en": "Roast Chicken Avocado",
+      "description": "부드러운 닭가슴살에 아보카도를 더해 든든함을 한입 가득 즐겨보세요.",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 267],
+        "ingredient_2": ["열량(kcal)", 356],
+        "ingredient_3": ["단백질(g)", 26.6, 48],
+        "ingredient_4": ["포화지방(g)", 2.1, 14],
+        "ingredient_5": ["당류(g)", 9],
+        "ingredient_6": ["나트륨(mg)", 694, 35]
+      }
+    },
+    {
+      "title_ko": "에그 슬라이스",
+      "title_en": "Egg Slice",
+      "description": "달걀의 신선함과 담백함을 그대로 담아 맛도, 영양도 사로잡은 샌드위치를 입안 가득 즐겨보세요.",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 214],
+        "ingredient_2": ["열량(kcal)", 279],
+        "ingredient_3": ["단백질(g)", 15.2, 28],
+        "ingredient_4": ["포화지방(g)", 2.3, 16],
+        "ingredient_5": ["당류(g)", 7.6, 7.6],
+        "ingredient_6": ["나트륨(mg)", 447, 22]
+      },
+      "ingredients": ["에그 1개(슬라이스)", "치즈 2장"],
+      "recommend_sauces": ["랜치", "스위트 칠리"]
+    },
+    {
+      "title_ko": "치킨 슬라이스",
+      "title_en": "Chicken Slice",
+      "description": "닭가슴살로 만든 치킨 슬라이스로 즐기는 담백한 맛!",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 221],
+        "ingredient_2": ["열량(kcal)", 265],
+        "ingredient_3": ["단백질(g)", 18.6, 34],
+        "ingredient_4": ["포화지방(g)", 0.9, 6],
+        "ingredient_5": ["당류(g)", 8.7, 9],
+        "ingredient_6": ["나트륨(mg)", 751, 37]
+      },
+      "ingredients": ["치킨 브레스트 햄 4장", "치즈 2장"],
+      "recommend_sauces": ["스위트 칠리", "사우스웨스트 치폴레"]
+    },
+    {
+      "title_ko": "치킨 베이컨 아보카도",
+      "title_en": "Chicken Bacon Avocado",
+      "description": "담백하게 닭가슴살로 만든 치킨 슬라이스와 베이컨, 부드러운 아보카도의 만남",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 221],
+        "ingredient_2": ["열량(kcal)", 265],
+        "ingredient_3": ["단백질(g)", 18.6, 34],
+        "ingredient_4": ["포화지방(g)", 0.9, 6],
+        "ingredient_5": ["당류(g)", 8.7, 9],
+        "ingredient_6": ["나트륨(mg)", 751, 37]
+      },
+      "ingredients": ["치킨 브레스트 햄 3장", "베이컨 2장", "아보카도 1스쿱", "치즈 2장"],
+      "recommend_sauces": ["랜치", "홀스래디쉬"]
+    },
+    {
+      "title_ko": "로스트 치킨",
+      "title_en": "Roasted Chicken",
+      "description": "오븐에 구워 담백한 저칼로리 닭가슴살의 건강한 풍미",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 237],
+        "ingredient_2": ["열량(kcal)", 300],
+        "ingredient_3": ["단백질(g)", 26, 47],
+        "ingredient_4": ["포화지방(g)", 1.3, 9],
+        "ingredient_5": ["당류(g)", 8.7, 9],
+        "ingredient_6": ["나트륨(mg)", 605, 30]
+      },
+      "ingredients": ["치킨 브레스트 1장", "치즈 2장"],
+      "recommend_sauces": ["스위트 어니언", "엑스트라 버진 올리브 오일"]
+    },
+    {
+      "title_ko": "로티세리 바비큐 치킨",
+      "title_en": "Rotisserie Barbecue Chicken",
+      "description": "촉촉한 바비큐 치킨의 풍미가득.\n손으로 찢어 더욱 부드러운 치킨의 혁명",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 249],
+        "ingredient_2": ["열량(kcal)", 327],
+        "ingredient_3": ["단백질(g)", 29.1, 53],
+        "ingredient_4": ["포화지방(g)", 2.5, 17],
+        "ingredient_5": ["당류(g)", 7.8, 8],
+        "ingredient_6": ["나트륨(mg)", 542, 27]
+      },
+      "ingredients": ["로티세리 치킨 1스쿱", "치즈 2장"],
+      "recommend_sauces": ["스위트 칠리", "랜치"]
+    },
+    {
+      "title_ko": "써브웨이 클럽",
+      "title_en": "Subway Club™",
+      "description": "고소한 베이컨, 담백한 치킨 슬라이스에 햄까지 더해 완벽해진 조화를 즐겨보세요!",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 216],
+        "ingredient_2": ["열량(kcal)", 299],
+        "ingredient_3": ["단백질(g)", 19.8, 36],
+        "ingredient_4": ["포화지방(g)", 2.4, 16],
+        "ingredient_5": ["당류(g)", 8.53, 8],
+        "ingredient_6": ["나트륨(mg)", 853, 43]
+      },
+      "ingredients": ["치킨 브레스트 햄 2장", "햄 1장", "베이컨 2장", "치즈 2장"],
+      "recommend_sauces": ["랜치", "스위트 어니언"]
+    },
+    {
+      "title_ko": "베지",
+      "title_en": "Veggie Delite",
+      "description": "갓 구운 빵과 신선한 8가지 야채로 즐기는 깔끔한 한끼",
+      "type": "프레쉬&라이트",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 164],
+        "ingredient_2": ["열량(kcal)", 209],
+        "ingredient_3": ["단백질(g)", 9.2, 17],
+        "ingredient_4": ["포화지방(g)", 0.6, 4],
+        "ingredient_5": ["당류(g)", 7.6, 8],
+        "ingredient_6": ["나트륨(mg)", 262, 13]
+      },
+      "ingredients": ["각종 야채", "치즈 2장"],
+      "recommend_sauces": ["레드와인식초", "엑스트라 버진 올리브 오일"]
+    },
+    {
+      "title_ko": "쉬림프 아보카도",
+      "title_en": "Shrimp Avocado",
+      "description": "통통한 새우에 아보카도를 더해 더욱 신선하게 한입 가득 즐겨보세요.",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 239],
+        "ingredient_2": ["열량(kcal)", 297],
+        "ingredient_3": ["단백질(g)", 16.9, 31],
+        "ingredient_4": ["포화지방(g)", 1.4, 9],
+        "ingredient_5": ["당류(g)", 8.1],
+        "ingredient_6": ["나트륨(mg)", 504, 25]
+      }
+    },
+    {
+      "title_ko": "스파이시 쉬림프",
+      "title_en": "Spicy Shrimp",
+      "description": "탱글한 쉬림프에 이국적인 시즈닝을 더해 색다른 매콤함을 만나보세요!",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 213],
+        "ingredient_2": ["열량(kcal)", 245],
+        "ingredient_3": ["단백질(g)", 16.5, 30],
+        "ingredient_4": ["포화지방(g)", 0.9, 6],
+        "ingredient_5": ["당류(g)", 9.1, 9],
+        "ingredient_6": ["나트륨(mg)", 570, 29]
+      },
+      "ingredients": ["스파이시 쉬림프 5마리", "치즈 2장"],
+      "recommend_sauces": ["랜치"]
+    },
+    {
+      "title_ko": "쉬림프",
+      "title_en": "Shrimp",
+      "description": "탱글한 쉬림프 5마리가 그대로, 신선하고 담백한 쉬림프의 맛 그대로 즐겨보세요!",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 209],
+        "ingredient_2": ["열량(kcal)", 241],
+        "ingredient_3": ["단백질(g)", 16.3, 30],
+        "ingredient_4": ["포화지방(g)", 0.6, 4],
+        "ingredient_5": ["당류(g)", 7.9, 8],
+        "ingredient_6": ["나트륨(mg)", 415, 21]
+      },
+      "ingredients": ["새우 5마리", "치즈 2장"],
+      "recommend_sauces": ["랜치", "스위트 칠리"]
+    },
+    {
+      "title_ko": "K-바비큐",
+      "title_en": "K-BBQ",
+      "description": "써브웨이의 코리안 스타일 샌드위치!\n마늘, 간장 그리고 은은한 불맛까지!",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 256],
+        "ingredient_2": ["열량(kcal)", 372],
+        "ingredient_3": ["단백질(g)", 25.6, 46],
+        "ingredient_4": ["포화지방(g)", 2.1, 14],
+        "ingredient_5": ["당류(g)", 14.7, 15],
+        "ingredient_6": ["나트륨(mg)", 899, 45]
+      },
+      "ingredients": ["K-바비큐 1스쿱", "치즈 2장"],
+      "recommend_sauces": ["엑스트라 버진 올리브 오일", "후추"]
+    },
+    {
+      "title_ko": "풀드 포크 바비큐",
+      "title_en": "Pulled Pork Barbecue",
+      "description": "미국 스타일의 풀드 포크 바비큐가 가득 들어간 샌드위치",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 235],
+        "ingredient_2": ["열량(kcal)", 327],
+        "ingredient_3": ["단백질(g)", 24.8, 45],
+        "ingredient_4": ["포화지방(g)", 2.1, 14],
+        "ingredient_5": ["당류(g)", 7.8, 8],
+        "ingredient_6": ["나트륨(mg)", 689, 34]
+      },
+      "ingredients": ["풀드포크 바비큐 1스쿱", "치즈 2장"],
+      "recommend_sauces": ["스모크 바비큐", "랜치"]
+    },
+    {
+      "title_ko": "스테이크 & 치즈",
+      "title_en": "Steak & Cheese",
+      "description": "육즙이 쫙~풍부한 비프 스테이크의 풍미가 입안 한가득",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 245],
+        "ingredient_2": ["열량(kcal)", 355],
+        "ingredient_3": ["단백질(g)", 28.1, 51],
+        "ingredient_4": ["포화지방(g)", 4.2, 28],
+        "ingredient_5": ["당류(g)", 8.8, 9],
+        "ingredient_6": ["나트륨(mg)", 780, 39]
+      },
+      "ingredients": ["스테이크 1스쿱", "치즈 2장"],
+      "recommend_sauces": ["사우스웨스트 치폴레", "마요네즈"]
+    },
+    {
+      "title_ko": "스파이시 이탈리안",
+      "title_en": "Spicy Italian",
+      "description": "페퍼로니 & 살라미가 입안 가득, 페퍼로니의 부드러운 매콤함을 만나보세요!",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 224],
+        "ingredient_2": ["열량(kcal)", 464],
+        "ingredient_3": ["단백질(g)", 20.7, 38],
+        "ingredient_4": ["포화지방(g)", 9.1, 60],
+        "ingredient_5": ["당류(g)", 8.7, 9],
+        "ingredient_6": ["나트륨(mg)", 1250, 63]
+      },
+      "ingredients": ["페퍼로니 5장", "살라미 5장", "치즈 2장"],
+      "recommend_sauces": ["랜치", "스위트 어니언"]
+    },
+    {
+      "title_ko": "치킨 데리야끼",
+      "title_en": "Chicken Teriyaki",
+      "description": "담백한 치킨 스트립에 달콤짭쪼름한 써브웨이 특제 데리야끼 소스와의 환상적인 만남",
+      "type": "프리미엄",
+      "img_path": "",
+      "nutrients": {
+        "ingredient_1": ["중량(g)", 255],
+        "ingredient_2": ["열량(kcal)", 314],
+        "ingredient_3": ["단백질(g)", 26.5, 48],
+        "ingredient_4": ["포화지방(g)", 1.2, 8],
+        "ingredient_5": ["당류(g)", 10.1, 10],
+        "ingredient_6": ["나트륨(mg)", 698, 35]
+      },
+      "ingredients": ["치킨 데리야끼 1스쿱", "치즈 2장"],
+      "recommend_sauces": ["스모크 바비큐", "마요네즈"]
+    }
+  ]
+}
