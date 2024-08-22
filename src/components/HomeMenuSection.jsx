@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import MenuList from "./MenuList";
+import HomeMenuList from "./HomeMenuList";
 
 const Section = styled.section`
   padding-left: 20px;
@@ -38,7 +38,7 @@ const Ul = styled.ul`
   overflow-x: auto; /* 가로 스크롤 허용 */
 `;
 
-function MenuSection({ title }) {
+function HomeMenuSection({ title }) {
   return (
     <Section>
       <TitleSection>
@@ -46,13 +46,13 @@ function MenuSection({ title }) {
         <Button>더보기</Button>
       </TitleSection>
       <Ul>
-        <MenuList />
-        <MenuList />
-        <MenuList />
-        <MenuList />
+        <HomeMenuList />
+        <HomeMenuList />
+        <HomeMenuList />
+        <HomeMenuList />
       </Ul>
     </Section>
   );
 }
 
-export default MenuSection;
+export default HomeMenuSection;

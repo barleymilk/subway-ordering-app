@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { ReactComponent as HomeIcon } from "../assets/icons/home.svg";
 import { ReactComponent as MenuIcon } from "../assets/icons/sandwich-alt.svg";
@@ -18,7 +19,7 @@ const BottomNavBar = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: end;
-  z-index: 1000; /* 다른 요소들보다 위에 표시되도록 */
+  z-index: 1000;
 `;
 
 const NavButton = styled.button`
@@ -62,26 +63,43 @@ const NavButton = styled.button`
   }
 `;
 
-function BottomNav() {
+function BottomNav({ activeItem }) {
+  const navigate = useNavigate();
+
   return (
     <BottomNavBar>
-      <NavButton className="active">
+      <NavButton
+        className={activeItem === "home" ? "active" : ""}
+        onClick={() => navigate("/")}
+      >
         <HomeIcon />
         <span>홈</span>
       </NavButton>
-      <NavButton>
+      <NavButton
+        className={activeItem === "menu" ? "active" : ""}
+        onClick={() => navigate("/menu?type=sandwiches&type=all")}
+      >
         <MenuIcon />
         <span>메뉴</span>
       </NavButton>
-      <NavButton>
+      <NavButton
+        className={activeItem === "order" ? "active" : ""}
+        onClick={() => navigate("/order")}
+      >
         <OrderIcon />
         <span>주문</span>
       </NavButton>
-      <NavButton>
+      <NavButton
+        className={activeItem === "store" ? "active" : ""}
+        onClick={() => navigate("/store")}
+      >
         <StoreIcon />
         <span>매장</span>
       </NavButton>
-      <NavButton>
+      <NavButton
+        className={activeItem === "promo" ? "active" : ""}
+        onClick={() => navigate("/promo")}
+      >
         <PromoIcon />
         <span>프로모션</span>
       </NavButton>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Header from "../components/Header";
 import Carousel from "../components/Carousel";
-import MenuSection from "../components/MenuSection";
+import HomeMenuSection from "../components/HomeMenuSection";
 import Footer from "../components/Footer";
 import BottomNav from "../components/BottomNav";
 
@@ -32,7 +32,7 @@ const ContentWrapper = styled.div`
 
 function HomePage() {
   return (
-    <div id="wrap">
+    <>
       <ContentWrapper>
         <Header />
         <main>
@@ -41,14 +41,14 @@ function HomePage() {
           </Welcome>
           <Carousel />
           <MainContent>
-            <MenuSection title="메뉴" />
-            <MenuSection title="인기조합" />
+            <HomeMenuSection title="메뉴" />
+            <HomeMenuSection title="인기조합" />
           </MainContent>
         </main>
         <Footer />
       </ContentWrapper>
-      <BottomNav />
-    </div>
+      <BottomNav activeItem="home" />
+    </>
   );
 }
 

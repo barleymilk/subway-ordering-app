@@ -22,7 +22,7 @@ const Name = styled.p`
   line-height: 18px;
 `
 
-function MenuList() {
+function HomeMenuList() {
   return (
     <Menu>
       <Img src="src\assets\images\(SubPick)ItalianBMT_Front (3)_20240205094239598.png" />
@@ -31,4 +31,4 @@ function MenuList() {
   );
 }
 
-export default MenuList;
+export default HomeMenuList;

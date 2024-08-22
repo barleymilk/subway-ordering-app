@@ -28,6 +28,8 @@ const OrderButton = styled.button`
   width: 47%;
   height: 100%;
   background-color: white;
+  box-shadow: ${(props) =>
+    props.isShadow ? "0 0 4px rgba(0, 0, 0, 0.2)" : "none"};
   border-radius: 15px;
   text-align: center;
   font-size: 1.25rem;
@@ -37,14 +39,14 @@ const OrderButton = styled.button`
   align-items: center;
 `;
 
-function OrderButtons() {
+function OrderButtons(isShadow) {
   return (
     <OrderButtonsContainer>
-      <OrderButton>
+      <OrderButton isShadow={isShadow}>
         <StyledShoppingBagIcon />
         <span>포장주문</span>
       </OrderButton>
-      <OrderButton>
+      <OrderButton isShadow={isShadow}>
         <StyledMopedIcon />
         <span>배달주문</span>
       </OrderButton>
