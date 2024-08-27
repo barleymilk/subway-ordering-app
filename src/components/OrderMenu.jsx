@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import Header from "../components/Header";
-import BottomNav from "../components/BottomNav";
-import Tags from "../components/UI/Tags";
-import MenuBox from "../components/MenuBox";
-import MenuNav from "../components/MenuNav";
-import OrderButtons from "../components/UI/OrderButtons";
+import { useSelector, useDispatch } from "react-redux";
+import { setSelectedItem } from "../redux/menuSlice";
+import styled from "styled-components";
+import Header from "./Header";
+import MenuNav from "./MenuNav";
+import Tags from "./UI/Tags";
+import MenuBox from "./MenuBox";
+import { Question } from "./UI/Question";
 import ingredients from "../ingredients.json";
 
 const menuTypes = {
@@ -18,19 +20,36 @@ const menuTypes = {
 };
 
 const menuTags = {
+  saved: "나의 메뉴",
   all: "전체",
   classic: "클래식",
   fresh: "프레쉬&라이트",
   premium: "프리미엄",
   new: "신제품",
-  topping: "토핑",
 };
 
-function MenuPage() {
+const Main = styled.main`
+  margin: 20px;
+`;
+
+const OrderButton = styled.button`
+  all: unset;
+  cursor: pointer;
+  background-color: #00964e;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+`;
+
+function OrderMenu({ nextStep }) {
   const useQuery = () => {
     return new URLSearchParams(useLocation().search);
   };
-
   let query = useQuery();
   const navigate = useNavigate();
   const queryType = query.get("type") || "sandwiches"; // 기본값으로 'sandwiches' 설정
@@ -39,7 +58,7 @@ function MenuPage() {
   useEffect(() => {
     // 만약 queryType 또는 queryTag가 URL에 없다면 기본값으로 리다이렉트
     if (!query.get("type") || !query.get("tag")) {
-      navigate(`/menu?type=${queryType}&tag=${queryTag}`, { replace: true });
+      navigate(`/order?type=${queryType}&tag=${queryTag}`, { replace: true });
     }
   }, [query, navigate, queryType, queryTag]);
 
@@ -51,13 +70,14 @@ function MenuPage() {
 
   const handleTagClick = (tag) => {
     // 새로운 URL로 리다이렉트
-    navigate(`/menu?type=${queryType}&tag=${tag}`);
+    navigate(`/order?type=${queryType}&tag=${tag}`);
   };
 
   return (
     <>
       <Header />
-      <main id="wrap">
+      <Question>메뉴를 선택해주세요</Question>
+      <Main>
         <MenuNav
           menuOpen={menuOpen}
           toggleMenu={toggleMenu}
@@ -76,12 +96,11 @@ function MenuPage() {
               : ingredients[queryType].filter((item) => item.type === queryTag)
           }
         >
-          <OrderButtons />
+          <OrderButton onClick={nextStep}>주문 시작하기</OrderButton>
         </MenuBox>
-      </main>
-      <BottomNav activeItem="menu" />
+      </Main>
     </>
   );
 }
 
-export default MenuPage;
+export default OrderMenu;

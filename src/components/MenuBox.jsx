@@ -27,7 +27,7 @@ const MenuImg = styled.div`
   }
 `;
 
-function MenuBox({ data }) {
+function MenuBox({ children, data }) {
   const [selectedItem, setSelectedItem] = useState(null);
 
   const handleClick = (item) => {
@@ -53,7 +53,7 @@ function MenuBox({ data }) {
       ))}
       {selectedItem && (
         <Modal onClose={closeModal} info={selectedItem}>
-          <OrderButtons isShadow={true} />
+          {children}
         </Modal>
       )}
     </section>

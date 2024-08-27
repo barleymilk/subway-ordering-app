@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import menuReducer from "./menuSlice";
 
 export const store = configureStore({
   reducer: {
-    // 여기에 리듀서를 추가
+    menu: menuReducer,
   },
 });
+
+export default store;

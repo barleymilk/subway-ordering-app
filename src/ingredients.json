@@ -130,6 +130,7 @@
     {
       "title_ko": "양상추",
       "title_en": "Lettuce",
+      "type": "생야채",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 2.9]
@@ -138,6 +139,7 @@
     {
       "title_ko": "토마토",
       "title_en": "Tomatoes",
+      "type": "생야채",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 7.7]
@@ -146,6 +148,7 @@
     {
       "title_ko": "오이",
       "title_en": "Cucumbers",
+      "type": "생야채",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 1.5]
@@ -154,6 +157,7 @@
     {
       "title_ko": "피망",
       "title_en": "Peppers",
+      "type": "생야채",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 1.4]
@@ -162,6 +166,7 @@
     {
       "title_ko": "양파",
       "title_en": "Red Onions",
+      "type": "생야채",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 2.8]
@@ -170,6 +175,7 @@
     {
       "title_ko": "피클",
       "title_en": "Pickles",
+      "type": "절임류",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 0.4]
@@ -178,6 +184,7 @@
     {
       "title_ko": "올리브",
       "title_en": "Olives",
+      "type": "절임류",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 3.9]
@@ -186,6 +193,7 @@
     {
       "title_ko": "할라피뇨",
       "title_en": "Jalapenos",
+      "type": "절임류",
       "img_path": "",
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 0.6]
@@ -198,6 +206,12 @@
       "ingredients": {
         "nutrient_2": ["열량(kcal)", 56.5]
       }
+    },
+    {
+      "title_ko": "야채 제외",
+      "title_en": "No Vegetables",
+      "type": "no",
+      "img_path": ""
     }
   ],
   "sauces": [
@@ -380,6 +394,132 @@
       "img_path": ""
     }
   ],
+  "toppings": [
+    {
+      "title_ko": "에그마요",
+      "title_en": "Lettuce",
+      "price": 2000,
+      "img_path": "",
+      "ingredients": {
+        "nutrient_2": ["열량(kcal)", 2.9]
+      }
+    },
+    {
+      "title_ko": "페퍼로니",
+      "title_en": "Lettuce",
+      "price": 1400,
+      "img_path": "",
+      "ingredients": {
+        "nutrient_2": ["열량(kcal)", 2.9]
+      }
+    },
+    {
+      "title_ko": "베이컨",
+      "title_en": "Lettuce",
+      "price": 1500,
+      "img_path": "",
+      "ingredients": {
+        "nutrient_2": ["열량(kcal)", 2.9]
+      }
+    },
+    {
+      "title_ko": "아보카도",
+      "title_en": "Avocado",
+      "price": 1500,
+      "img_path": "",
+      "ingredients": {
+        "nutrient_2": ["열량(kcal)", 56.5]
+      }
+    },
+    {
+      "title_ko": "오믈렛",
+      "title_en": "Lettuce",
+      "price": 1800,
+      "img_path": "",
+      "ingredients": {
+        "nutrient_2": ["열량(kcal)", 2.9]
+      }
+    },
+    {
+      "title_ko": "에그 슬라이스",
+      "title_en": "Lettuce",
+      "price": 1200,
+      "img_path": "",
+      "ingredients": {
+        "nutrient_2": ["열량(kcal)", 2.9]
+      }
+    }
+  ],
+  "extra_meats": [
+    {
+      "title_ko": "참치",
+      "title_en": "Tuna",
+      "price": 3000
+    },
+    { "title_ko": "햄", "title_en": "Ham", "price": 3000 },
+    {
+      "title_ko": "이탈리안 비엠티",
+      "title_en": "Italian B.M.T.™",
+      "price": 3000
+    },
+    {
+      "title_ko": "비엘티",
+      "title_en": "B.L.T.",
+      "price": 3000
+    },
+    {
+      "title_ko": "치킨 슬라이스",
+      "title_en": "Chicken Slice",
+      "price": 3000
+    },
+    {
+      "title_ko": "치킨 베이컨",
+      "title_en": "Chicken Bacon",
+      "price": 3000
+    },
+    {
+      "title_ko": "스테이크/치즈",
+      "title_en": "Steak & Cheese",
+      "price": 3000
+    },
+    { "title_ko": "로스트 치킨", "title_en": "Roasted Chicken", "price": 3000 },
+    {
+      "title_ko": "로티세리 치킨",
+      "title_en": "Rotisserie Barbecue Chicken",
+      "price": 3000
+    },
+    {
+      "title_ko": "풀드포크",
+      "title_en": "Pulled Pork Barbecue",
+      "price": 3000
+    },
+    { "title_ko": "클럽(치킨)", "title_en": "Club(Chicken)", "price": 3000 },
+    {
+      "title_ko": "치킨 데리야끼",
+      "title_en": "Chicken Teriyaki",
+      "price": 3000
+    },
+    {
+      "title_ko": "스파이시 이탈리안",
+      "title_en": "Spicy Italian",
+      "price": 3000
+    },
+    {
+      "title_ko": "K-바비큐",
+      "title_en": "K-BBQ",
+      "price": 3000
+    },
+    {
+      "title_ko": "쉬림프",
+      "title_en": "Shrimp",
+      "price": 3000
+    },
+    {
+      "title_ko": "스파이시 쉬림프",
+      "title_en": "Spicy Shrimp",
+      "price": 3000
+    }
+  ],
   "sandwiches": [
     {
       "title_ko": "에그 슬라이스 아보카도",
@@ -428,7 +568,8 @@
         "nutrient_6": ["나트륨(mg)", 1064, 53]
       },
       "ingredients": ["페퍼로니 3장", "살라미 3장", "햄 2장", "치즈 2장"],
-      "recommend_sauces": ["스위트 어니언", "랜치"]
+      "recommend_sauces": ["스위트 어니언", "랜치"],
+      "extra_meat": ["이탈리안 비엠티", "비엘티", "치킨 슬라이스", "참치", "햄"]
     },
     {
       "title_ko": "비엘티",
@@ -445,7 +586,8 @@
         "nutrient_6": ["나트륨(mg)", 666, 33]
       },
       "ingredients": ["베이컨 4장", "치즈 2장"],
-      "recommend_sauces": ["마요네즈", "사우스웨스트 치폴레"]
+      "recommend_sauces": ["마요네즈", "사우스웨스트 치폴레"],
+      "extra_meat": ["비엘티", "치킨 슬라이스", "참치", "햄"]
     },
     {
       "title_ko": "햄",
@@ -462,7 +604,8 @@
         "nutrient_6": ["나트륨(mg)", 680, 34]
       },
       "ingredients": ["햄 4장", "치즈 2장"],
-      "recommend_sauces": ["마요네즈", "홀스래디쉬"]
+      "recommend_sauces": ["마요네즈", "홀스래디쉬"],
+      "extra_meat": ["햄", "참치"]
     },
     {
       "title_ko": "참치",
@@ -479,7 +622,8 @@
         "nutrient_6": ["나트륨(mg)", 535, 27]
       },
       "ingredients": ["참치 2스쿱", "치즈 2장"],
-      "recommend_sauces": ["핫 칠리", "스위트 칠리"]
+      "recommend_sauces": ["핫 칠리", "스위트 칠리"],
+      "extra_meat": ["참치", "햄"]
     },
     {
       "title_ko": "로스트 치킨 아보카도",
@@ -528,7 +672,8 @@
         "nutrient_6": ["나트륨(mg)", 751, 37]
       },
       "ingredients": ["치킨 브레스트 햄 4장", "치즈 2장"],
-      "recommend_sauces": ["스위트 칠리", "사우스웨스트 치폴레"]
+      "recommend_sauces": ["스위트 칠리", "사우스웨스트 치폴레"],
+      "extra_meat": ["치킨 슬라이스", "참치", "햄"]
     },
     {
       "title_ko": "치킨 베이컨 아보카도",
@@ -544,8 +689,28 @@
         "nutrient_5": ["당류(g)", 8.7, 9],
         "nutrient_6": ["나트륨(mg)", 751, 37]
       },
-      "ingredients": ["치킨 브레스트 햄 3장", "베이컨 2장", "아보카도 1스쿱", "치즈 2장"],
-      "recommend_sauces": ["랜치", "홀스래디쉬"]
+      "ingredients": [
+        "치킨 브레스트 햄 3장",
+        "베이컨 2장",
+        "아보카도 1스쿱",
+        "치즈 2장"
+      ],
+      "recommend_sauces": ["랜치", "홀스래디쉬"],
+      "extra_meat": [
+        "치킨 베이컨",
+        "스테이크/치즈",
+        "로스트 치킨",
+        "로티세리 치킨",
+        "풀드포크",
+        "클럽(치킨)",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "로스트 치킨",
@@ -579,7 +744,21 @@
         "nutrient_6": ["나트륨(mg)", 542, 27]
       },
       "ingredients": ["로티세리 치킨 1스쿱", "치즈 2장"],
-      "recommend_sauces": ["스위트 칠리", "랜치"]
+      "recommend_sauces": ["스위트 칠리", "랜치"],
+      "extra_meat": [
+        "로티세리 치킨",
+        "K-바비큐",
+        "로스트 치킨",
+        "풀드포크",
+        "클럽(치킨)",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "써브웨이 클럽",
@@ -595,8 +774,23 @@
         "nutrient_5": ["당류(g)", 8.53, 8],
         "nutrient_6": ["나트륨(mg)", 853, 43]
       },
-      "ingredients": ["치킨 브레스트 햄 2장", "햄 1장", "베이컨 2장", "치즈 2장"],
-      "recommend_sauces": ["랜치", "스위트 어니언"]
+      "ingredients": [
+        "치킨 브레스트 햄 2장",
+        "햄 1장",
+        "베이컨 2장",
+        "치즈 2장"
+      ],
+      "recommend_sauces": ["랜치", "스위트 어니언"],
+      "extra_meat": [
+        "클럽(치킨)",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "베지",
@@ -628,7 +822,8 @@
         "nutrient_4": ["포화지방(g)", 1.4, 9],
         "nutrient_5": ["당류(g)", 8.1],
         "nutrient_6": ["나트륨(mg)", 504, 25]
-      }
+      },
+      "extra_meat": ["치킨 슬라이스"]
     },
     {
       "title_ko": "스파이시 쉬림프",
@@ -645,7 +840,23 @@
         "nutrient_6": ["나트륨(mg)", 570, 29]
       },
       "ingredients": ["스파이시 쉬림프 5마리", "치즈 2장"],
-      "recommend_sauces": ["랜치"]
+      "recommend_sauces": ["랜치"],
+      "extra_meat": [
+        "햄",
+        "참치",
+        "비엘티",
+        "비엠티",
+        "로티세리 치킨",
+        "로스트 치킨",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "풀드포크",
+        "K-바비큐",
+        "치킨 슬라이스",
+        "클럽(치킨)",
+        "쉬림프",
+        "스파이시 쉬림프"
+      ]
     },
     {
       "title_ko": "쉬림프",
@@ -662,7 +873,22 @@
         "nutrient_6": ["나트륨(mg)", 415, 21]
       },
       "ingredients": ["새우 5마리", "치즈 2장"],
-      "recommend_sauces": ["랜치", "스위트 칠리"]
+      "recommend_sauces": ["랜치", "스위트 칠리"],
+      "extra_meat": [
+        "햄",
+        "참치",
+        "비엘티",
+        "비엠티",
+        "로티세리 치킨",
+        "로스트 치킨",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "풀드포크",
+        "K-바비큐",
+        "치킨 슬라이스",
+        "클럽(치킨)",
+        "쉬림프"
+      ]
     },
     {
       "title_ko": "K-바비큐",
@@ -679,7 +905,21 @@
         "nutrient_6": ["나트륨(mg)", 899, 45]
       },
       "ingredients": ["K-바비큐 1스쿱", "치즈 2장"],
-      "recommend_sauces": ["엑스트라 버진 올리브 오일", "후추"]
+      "recommend_sauces": ["엑스트라 버진 올리브 오일", "후추"],
+      "extra_meat": [
+        "K-바비큐",
+        "로스트 치킨",
+        "로티세리 치킨",
+        "풀드포크",
+        "클럽(치킨)",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "풀드 포크 바비큐",
@@ -696,7 +936,18 @@
         "nutrient_6": ["나트륨(mg)", 689, 34]
       },
       "ingredients": ["풀드포크 바비큐 1스쿱", "치즈 2장"],
-      "recommend_sauces": ["스모크 바비큐", "랜치"]
+      "recommend_sauces": ["스모크 바비큐", "랜치"],
+      "extra_meat": [
+        "풀드포크",
+        "클럽(치킨)",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "스테이크 & 치즈",
@@ -713,7 +964,23 @@
         "nutrient_6": ["나트륨(mg)", 780, 39]
       },
       "ingredients": ["스테이크 1스쿱", "치즈 2장"],
-      "recommend_sauces": ["사우스웨스트 치폴레", "마요네즈"]
+      "recommend_sauces": ["사우스웨스트 치폴레", "마요네즈"],
+      "extra_meat": [
+        "스테이크/치즈",
+        "치킨 베이컨",
+        "K-바비큐",
+        "로스트 치킨",
+        "로티세리 치킨",
+        "풀드포크",
+        "클럽(치킨)",
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "스파이시 이탈리안",
@@ -730,7 +997,15 @@
         "nutrient_6": ["나트륨(mg)", 1250, 63]
       },
       "ingredients": ["페퍼로니 5장", "살라미 5장", "치즈 2장"],
-      "recommend_sauces": ["랜치", "스위트 어니언"]
+      "recommend_sauces": ["랜치", "스위트 어니언"],
+      "extra_meat": [
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     },
     {
       "title_ko": "치킨 데리야끼",
@@ -747,7 +1022,16 @@
         "nutrient_6": ["나트륨(mg)", 698, 35]
       },
       "ingredients": ["치킨 데리야끼 1스쿱", "치즈 2장"],
-      "recommend_sauces": ["스모크 바비큐", "마요네즈"]
+      "recommend_sauces": ["스모크 바비큐", "마요네즈"],
+      "extra_meat": [
+        "치킨 데리야끼",
+        "스파이시 이탈리안",
+        "비엠티",
+        "비엘티",
+        "치킨 슬라이스",
+        "참치",
+        "햄"
+      ]
     }
   ]
 }

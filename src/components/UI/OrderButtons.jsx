@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import { ReactComponent as ShoppingBagIcon } from "../../assets/icons/shopping-bag.svg";
 import { ReactComponent as MopedIcon } from "../../assets/icons/moped.svg";
@@ -40,13 +41,15 @@ const OrderButton = styled.button`
 `;
 
 function OrderButtons(isShadow) {
+  const navigate = useNavigate();
+  
   return (
     <OrderButtonsContainer>
-      <OrderButton isShadow={isShadow}>
+      <OrderButton isShadow={isShadow} onClick={() => navigate("/order")}>
         <StyledShoppingBagIcon />
         <span>포장주문</span>
       </OrderButton>
-      <OrderButton isShadow={isShadow}>
+      <OrderButton isShadow={isShadow} onClick={() => navigate("/order")}>
         <StyledMopedIcon />
         <span>배달주문</span>
       </OrderButton>
